@@ -8,21 +8,33 @@ repositories:
     branches:
       main:
         enforce_admins: false
+        allow_force_pushes: false
         required_status_checks:
           require_review: true
           strict: true
+        required_pull_request_reviews:
+          required_approving_review_count: 1
       master:
         enforce_admins: false
+        allow_force_pushes: false
         required_status_checks:
           require_review: true
           strict: true
+        required_pull_request_reviews:
+          required_approving_review_count: 1
       main-trunk:
         enforce_admins: false
+        allow_force_pushes: false
         required_status_checks:
           require_review: true
           strict: true
+        required_pull_request_reviews:
+          required_approving_review_count: 1
       development:
         enforce_admins: false
+        allow_force_pushes: false
         required_status_checks:
           require_review: true
           strict: true
+        required_pull_request_reviews:
+          required_approving_review_count: 1
