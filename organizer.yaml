@@ -1,36 +1,3 @@
----
-teams:
-  admins:
-    members:
-      - flowos-cristian
-      - laurci
-      - andreixu
-  backend:
-    members:
-      - acodreanu
-      - liviunasoi-fos
-  devteam:
-    members:
-      - acodreanu
-      - aifrim
-      - andreisergiu98
-      - codrut-rotaru
-      - fangg19
-      - flowos-cristian
-      - ionutd-mindrescu
-      - kelvin2200
-      - laurci
-      - liviunasoi-fos
-      - mbogdancr
-      - mihai-madalin-macaneata
-      - Ochanissi
-      - octavcodrea
-      - sgeorge-flowos
-  management:
-    members:
-      - CosN23
-      - razvanduican12
----
 repositories:
   default:
     delete_branch_on_merge: true
