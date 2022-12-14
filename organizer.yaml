@@ -45,28 +45,3 @@ repositories:
       has_wiki: false
       has_projects: false
       has_downloads: false
-    teams:
-      admins: Admin
-      devteam: Pull
-  acoustic-kitty:
-    branches:
-      master:
-        enforce_admins: false
-        allow_force_pushes: false
-        required_status_checks:
-          require_review: false
-          strict: false
-    teams:
-      backend: Push
-      devteam: Pull
-  integration-service:
-    branches:
-      master:
-        enforce_admins: false
-        allow_force_pushes: false
-        required_status_checks:
-          require_review: false
-          strict: false
-    teams:
-      backend: Push
-      devteam: Pull
